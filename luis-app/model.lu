@@ -1,18 +1,21 @@
 
 > LUIS application information
-> !# @app.name = DevOpsSample
+> !# @app.name = DEV-update-luis-sample
 > !# @app.desc = Sample app for the LUIS DevOps guidance
 > !# @app.versionId = 0.1
 > !# @app.culture = en-us
-> !# @app.luis_schema_version = 6.0.0
+> !# @app.luis_schema_version = 7.0.0
+> !# @app.tokenizerVersion = 1.0.0
+
 
 > # Intent definitions
 
-## None
+# None
 - a long time ago i went to vienna
 - don't you think that san francisco is a beautiful city
-- if you're going to denver i wouldn't be starting from here
+- great that we can do devops with luis
 - i'm working away the next two weeks
+- if you're going to denver i wouldn't be starting from here
 - it takes me the best part of a day to get to edinburgh
 - my birthday is on the second of march
 - my nearest airport is manchester
@@ -21,7 +24,7 @@
 - usually i work from home
 
 
-## RequestVacation
+# RequestVacation
 - because of my europe travel i'm going to need a {@vacation-request={@leave-type=paid time off} vacations {@date-range=from january 1 to january 15}}
 - book {@vacation-request=time off please {@start-date=starting may 1st} coming back on {@end-date=may 24}}
 - can i book {@vacation-request=vacay {@date-range=from july 4th until july 20th}}?
